@@ -10,7 +10,7 @@
 ## 使用方法
 本仓库只有一个有效代码文件： ipgw.ino
 
-将 ipgw.ino 第六行和第七行的
+将 ipgw.ino 第六行和第七行的 `YOUR_ID` 和 `YOUR_PASSWORD`
 
 ```
 const String USERNAME = "YOUR_ID"; // 校园网用户名
@@ -23,3 +23,7 @@ const String PASSWORD = "YOUR_PASSWORD"; // 校园网密码
 
 ![ipgw_sucess](assets/ipgw_sucess.png)
 
+
+## 自我吐槽 
+
+代码非常不整洁，欢迎 PR 优化
